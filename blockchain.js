@@ -21,7 +21,10 @@ class Blockchain {
   //채굴
   mining() {
     console.log("채굴");
+    // 멤풀의 트랜잭션리스트를 블록에 담기 위해 가져옴
     const transactions = [...this.mempool];
+    // 멤풀 초기화
     this.mempool = [];
+    const lastBlock = this.blockchain[this.blockchain.length - 1];
   }
 }
