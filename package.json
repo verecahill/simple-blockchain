@@ -4,12 +4,17 @@
   "description": "",
   "main": "block.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hash.js": "^1.1.7"
+    "bn.js": "^5.2.0",
+    "hash.js": "^1.1.7",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   }
 }

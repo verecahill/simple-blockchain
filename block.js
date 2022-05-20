@@ -6,7 +6,6 @@ class Block {
     this.preHash = data.preHash; // 이전블록헤더해시
     this.timestamp = data.timestamp; // 타임스탬프
     this.nonce = data.nonce; // 해시퍼증정답
-    this.bits = data.bits; // 난이도 비트
     this.difficulty = data.difficulty; // 난이도
     this.hash = data.hash; // 현재블록해시
     this.transactions = data.transactions; // 트랜잭션 리스트
@@ -19,7 +18,6 @@ class Block {
       timestamp: Date.now(),
       transactions: ["제2의 구제금융"],
       difficulty: 1,
-      bits: 486604799,
       nonce: 0,
       hash: "GENESIS BLOCK",
     };
